@@ -41,6 +41,7 @@ function Hero() {
         <h1>
           Prasanna <br /> K
         </h1>
+        <h2>Frontend Developer</h2>
         <span className={styles.socialLinks}>
           <a
             href="https://twitter.com/PrasannaK5424"

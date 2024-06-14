@@ -12,22 +12,23 @@ function Projects() {
         <ProjectCard
           src={nasaImage}
           link="https://github.com/PrasannaK4/React_Projects/tree/main/Nasa_App"
-          h3="NASA"
-          p="NASA APP"
+          h3="NASA APP"
+          p="Skills: React,JavaScript,Material UI,HTML,CSS"
         />
         <ProjectCard
           src={expenceTracker}
           link="https://github.com/PrasannaK4/React_Projects/tree/main/expence_tracker"
           h3="Expence Tracker"
-          p="Expence Tracker APP"
+          p="Skills: React,JavaScript,CSS"
         />
         <ProjectCard
           src={weather}
           link="https://github.com/PrasannaK4/Javascript_Projects/tree/main/wheather%20app"
           h3="Weather Tracker"
-          p="Weather APP"
+          p="Skills: React,JavaScript,CSS,API,Bootstrap"
         />
       </div>
+      <hr/>
     </section>
   );
 }

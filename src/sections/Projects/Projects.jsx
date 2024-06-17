@@ -3,6 +3,7 @@ import ProjectCard from "../../common/ProjectCard";
 import nasaImage from "../../assets/NasaImage.png";
 import expenceTracker from "../../assets/expence_Tracker.png";
 import weather from "../../assets/weather.png";
+import eCommerce from "../../assets/e_commerce.png"
 
 function Projects() {
   return (
@@ -10,16 +11,16 @@ function Projects() {
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
         <ProjectCard
+          src={eCommerce}
+          link="https://github.com/PrasannaK4/e_commerce"
+          h3="E_Commerce APP"
+          p="Skills: React,JavaScript, React_Router,Mango DB,HTML,CSS"
+        />
+        <ProjectCard
           src={nasaImage}
           link="https://github.com/PrasannaK4/React_Projects/tree/main/Nasa_App"
           h3="NASA APP"
           p="Skills: React,JavaScript,Material UI,HTML,CSS"
-        />
-        <ProjectCard
-          src={expenceTracker}
-          link="https://github.com/PrasannaK4/React_Projects/tree/main/expence_tracker"
-          h3="Expence Tracker"
-          p="Skills: React,JavaScript,CSS"
         />
         <ProjectCard
           src={weather}
@@ -27,8 +28,14 @@ function Projects() {
           h3="Weather Tracker"
           p="Skills: React,JavaScript,CSS,API,Bootstrap"
         />
+        <ProjectCard
+          src={expenceTracker}
+          link="https://github.com/PrasannaK4/React_Projects/tree/main/expence_tracker"
+          h3="Expence Tracker"
+          p="Skills: React,JavaScript,CSS"
+        />
       </div>
-      <hr/>
+      <hr />
     </section>
   );
 }
